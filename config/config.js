@@ -6,7 +6,7 @@ var env = process.env.NODE_ENV || 'development';
 
 // Set server config
 var config = {
-  port: 3000,                                        
+  port: 8080,                                        
   db: 'mongodb://localhost/songs',
   host: 'localhost'                              
 };
