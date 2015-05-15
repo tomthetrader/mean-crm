@@ -35,7 +35,7 @@ app.use(morgan('dev')); 28
 
 // SERVER SETUP -----------------------
 // Connect to our database (hosted on localhost)
-mongoose.connect('mongodb://localhost/meanCrm');
+mongoose.connect(config.db);
 
 // MODELS SETUP
 // Pull in our models from the server/models folder

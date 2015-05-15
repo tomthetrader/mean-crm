@@ -7,7 +7,7 @@ var env = process.env.NODE_ENV || 'development';
 // Set server config
 var config = {
   port: 8080,                                        
-  db: 'mongodb://localhost/songs',
+  db: 'mongodb://localhost/meanCrm',
   host: 'localhost'                              
 };
 
