@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"token",
+				"token"
+			],
+			[
 				"models",
 				"modelsPath"
 			],
@@ -155,7 +159,7 @@
 			"file": "server.js",
 			"settings":
 			{
-				"buffer_size": 4866,
+				"buffer_size": 6175,
 				"line_ending": "Unix"
 			}
 		},
@@ -180,6 +184,22 @@
 			"settings":
 			{
 				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/app.js",
+			"settings":
+			{
+				"buffer_size": 103,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 494,
 				"line_ending": "Unix"
 			}
 		}
@@ -232,6 +252,7 @@
 	},
 	"file_history":
 	[
+		"/Users/TomCrick/Sites/mean-crm/package.json",
 		"/Users/TomCrick/Sites/mean-crm/server/controllers/rest.js",
 		"/Users/TomCrick/Sites/mean-crm/server.js",
 		"/Users/TomCrick/Sites/mean-crm/server-old.js",
@@ -287,6 +308,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"false",
+			"comparePassword",
 			"db",
 			"index",
 			"song.artist",
@@ -332,24 +355,25 @@
 					"file": "server.js",
 					"settings":
 					{
-						"buffer_size": 4866,
+						"buffer_size": 6175,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1247,
-								1247
+								2914,
+								2914
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1923.0,
+						"translation.y": 1368.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -425,6 +449,60 @@
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/app.js",
+					"settings":
+					{
+						"buffer_size": 103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								103
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

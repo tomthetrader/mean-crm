@@ -107,14 +107,48 @@ apiRouter.post('/authenticate', function(req, res) {
 
 // middleware to use for all requests
 // simply logs out to the console what is happening
+// 
+// TO TEST THIS USE THE TOKEN:
+// eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwYXNzd29yZCI6IiQyYSQxMCRyZ3JhdXB6c0RaSGJZNzdDUVNJbkh1WjkwUld2cS9OV3NpMGtPdWVlUGV0cVVCdmoyLmpLYSIsInVzZXJuYW1lIjoiY2hyaXMiLCJuYW1lIjoiQ2hyaXMiLCJfaWQiOiI1NDgxZTI2ZTkzYjliYmE3MTcxYmZkNWUiLCJfX3YiOjB9.fKBuDM0J1jpiAKfkPpr_b_NS6io8U4srLGuvEAfRhJg
+// 
 apiRouter.use(function(req, res, next){
 	// Do the logging
 	console.log('Somebody just came to our app!');
 
-	// we'll add more to the middleware in Chapter 10
-	// this is where we will authenticate users
-	next(); // make sure we go to the next routes and don't stop here
+	// check header or url parameters or post parameters for token
+	var token = req.body.token || req.param('token') || req.headers['x-access-token'];
+
+	// decode token
+	if (token) {
+
+		// verifies secret and checks exp
+		jwt.verify(token, superSecret, function(err, decoded) {      
+			if (err) {
+				return res.status(403).send({ 
+					success: false, 
+					message: 'Failed to authenticate token.' 
+				});    
+			} else {
+			// if everything is good, save to request for use in other routes
+			req.decoded = decoded;   
+			
+			next();
+			} 
+		});
+
+	} else {
+
+		// if there is no token
+		// return an HTTP response of 403 (access forbidden) and an error message
+		return res.status(403).send({ 
+			success: false, 
+			message: 'No token provided.' 
+		});
+   
+	}
+	// next() used to be here
 });
+
 
 // test route to make sure everything is working
 // accessed at GET http://localhost:8080/api
@@ -212,7 +246,10 @@ apiRouter.route('/users/:user_id')
     });
 
 
-
+// api endpoint to get user information
+apiRouter.get('/me', function(req, res){
+	res.send(req.decoded);
+});
 
 
 
