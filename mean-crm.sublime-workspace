@@ -159,7 +159,7 @@
 			"file": "server.js",
 			"settings":
 			{
-				"buffer_size": 6175,
+				"buffer_size": 7234,
 				"line_ending": "Unix"
 			}
 		},
@@ -191,7 +191,7 @@
 			"file": "app/app.js",
 			"settings":
 			{
-				"buffer_size": 103,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -355,15 +355,15 @@
 					"file": "server.js",
 					"settings":
 					{
-						"buffer_size": 6175,
+						"buffer_size": 7234,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2914,
-								2914
+								6918,
+								6918
 							]
 						],
 						"settings":
@@ -373,7 +373,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1368.0,
+						"translation.y": 4449.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -461,15 +461,15 @@
 					"file": "app/app.js",
 					"settings":
 					{
-						"buffer_size": 103,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								103,
-								103
+								0,
+								0
 							]
 						],
 						"settings":
