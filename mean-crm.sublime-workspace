@@ -156,50 +156,18 @@
 	"buffers":
 	[
 		{
-			"file": "server.js",
+			"file": "client/app.js",
 			"settings":
 			{
-				"buffer_size": 7234,
+				"buffer_size": 577,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "config/db.js",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/config.js",
-			"settings":
-			{
-				"buffer_size": 541,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "server/controllers/rest.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/app.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 494,
+				"buffer_size": 803,
 				"line_ending": "Unix"
 			}
 		}
@@ -253,12 +221,13 @@
 	"file_history":
 	[
 		"/Users/TomCrick/Sites/mean-crm/package.json",
+		"/Users/TomCrick/Sites/mean-crm/app/app.js",
 		"/Users/TomCrick/Sites/mean-crm/server/controllers/rest.js",
+		"/Users/TomCrick/Sites/mean-crm/config/config.js",
+		"/Users/TomCrick/Sites/mean-crm/config/db.js",
 		"/Users/TomCrick/Sites/mean-crm/server.js",
 		"/Users/TomCrick/Sites/mean-crm/server-old.js",
-		"/Users/TomCrick/Sites/mean-crm/config/config.js",
 		"/Users/TomCrick/Sites/mean-crm/server/models/user.js",
-		"/Users/TomCrick/Sites/mean-crm/config/db.js",
 		"/Users/TomCrick/Downloads/introduction_to_week_7/lesson7_examples/models/blogpost.js",
 		"/Users/TomCrick/Sites/mean-stack/client/app/app.js",
 		"/Users/TomCrick/Sites/mean-stack/.bowerrc",
@@ -347,162 +316,56 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "server.js",
+					"file": "client/app.js",
 					"settings":
 					{
-						"buffer_size": 7234,
+						"buffer_size": 577,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6918,
-								6918
+								577,
+								577
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4449.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "config/db.js",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 803,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								600,
+								600
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "config/config.js",
-					"settings":
-					{
-						"buffer_size": 541,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								331,
-								331
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "server/controllers/rest.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/app.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "package.json",
-					"settings":
-					{
-						"buffer_size": 494,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
