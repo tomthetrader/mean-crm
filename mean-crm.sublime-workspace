@@ -156,18 +156,26 @@
 	"buffers":
 	[
 		{
-			"file": "client/app.js",
+			"file": "angular2/public/views/index.html",
 			"settings":
 			{
-				"buffer_size": 577,
+				"buffer_size": 1698,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "angular2/public/js/app.routes.js",
 			"settings":
 			{
-				"buffer_size": 803,
+				"buffer_size": 896,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "angular2/public/js/app.js",
+			"settings":
+			{
+				"buffer_size": 739,
 				"line_ending": "Unix"
 			}
 		}
@@ -220,6 +228,18 @@
 	},
 	"file_history":
 	[
+		"/Users/TomCrick/Sites/mean-crm/angular2/public/views/pages/home.html",
+		"/Users/TomCrick/Sites/mean-crm/angular2/public/views/pages/about.html",
+		"/Users/TomCrick/Sites/mean-crm/angular2/public/views/pages/contact.html",
+		"/Users/TomCrick/Sites/mean-crm/angular2/server.js",
+		"/Users/TomCrick/Sites/mean-crm/angular2/public/views/index.html",
+		"/Users/TomCrick/Sites/mean-crm/index.html",
+		"/Users/TomCrick/Sites/mean-crm/angular2/package.json",
+		"/Users/TomCrick/Sites/mean-crm/angular2/public/views/app2.js",
+		"/Users/TomCrick/Sites/mean-crm/angular2/public/js/app.routes.js",
+		"/Users/TomCrick/Sites/mean-crm/angular2/public/index.html",
+		"/Users/TomCrick/Sites/mean-crm/client/app.js",
+		"/Users/TomCrick/Sites/mean-crm/angular2/config/config.js",
 		"/Users/TomCrick/Sites/mean-crm/package.json",
 		"/Users/TomCrick/Sites/mean-crm/app/app.js",
 		"/Users/TomCrick/Sites/mean-crm/server/controllers/rest.js",
@@ -277,6 +297,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"2",
 			"false",
 			"comparePassword",
 			"db",
@@ -316,30 +337,28 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "client/app.js",
+					"file": "angular2/public/views/index.html",
 					"settings":
 					{
-						"buffer_size": 577,
+						"buffer_size": 1698,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								577,
-								577
+								150,
+								150
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -349,23 +368,50 @@
 				},
 				{
 					"buffer": 1,
-					"file": "index.html",
+					"file": "angular2/public/js/app.routes.js",
 					"settings":
 					{
-						"buffer_size": 803,
+						"buffer_size": 896,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								600,
-								600
+								853,
+								853
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "angular2/public/js/app.js",
+					"settings":
+					{
+						"buffer_size": 739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
